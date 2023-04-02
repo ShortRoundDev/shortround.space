@@ -37,6 +37,6 @@ My interests are:
 * History/Politics. I won't tell you which side I'm on, but I will tell you that I have moderate beliefs, and I'll probably talk about whatever books I'm reading at the time so you might guess.
 
 # Links
-[1] => https://www.npmjs.com/package/gemini-server gemini-server on NPM
+=> https://www.npmjs.com/package/gemini-server [1] gemini-server on NPM
 
 => / Home
