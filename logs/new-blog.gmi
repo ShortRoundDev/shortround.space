@@ -33,6 +33,8 @@ I told my wife that I want to try not to make this a coding blog. I spend all da
 My interests are:
 * Coding (oops)
 * Sci-fi novels (Neal Stephenson and William Gibson)
+* Some video games. I don't play a ton, but I like CS:GO and the Resident Evil Series a lot
+* History/Politics. I won't tell you which side I'm on, but I will tell you that I have moderate beliefs, and I'll probably talk about whatever books I'm reading at the time so you might guess.
 
 # Links
 [1] => https://www.npmjs.com/package/gemini-server gemini-server on NPM
