@@ -1,0 +1,40 @@
+=> / Home
+
+# New Blog
+4/2/2023
+
+This is the first post on my Gemini capsule. I decided to join Gemini for the usual reasons: the World Wide Web has become a little too manic. Website content is low quality, curated by the wrong people for the wrong reasons, and designed to increase engagement while also being small and meaningless enough that I'll scroll on to the next thing quickly. I started reading Gemini capsules after I read about the protocol in an issue of 2600 magazine a couple months ago or so.
+
+It's taken me some time to find a good solution to hosting my own site. Many of the pre-made servers in C, Rust, etc. aren't exactly cooperative right out of the box; I would run `make` on some of the C ones and they would be missing some dependency. I would try to run `cargo` on some of the Rust ones, and they couldn't *build* another dependency. I found a C# one that built, but had some weird TLS error related to the certificate. I could've chased these issues down further, but I'm more interested in writing on this thing than I am in debugging it, so I went for a simpler solution.
+
+I used the gemini-server[1] package on NPM to create a very simple static file server that it looks like this:
+
+```
+const gemini = require('gemini-server').default;
+const fs = require('fs');
+
+const app = gemini({
+    cert: fs.readFileSync("cert.pem"),
+    key: fs.readFileSync("key.pem"),
+    titanEnabled: false
+});
+
+app.use("/", gemini.serveStatic("/var/gem/gmi"));
+
+app.listen(() => {
+    console.log("Listening...");
+});
+```
+
+And generated the cert and key using OpenSSL. I set up /var/gem folder as an SFTP site with an associated user. Finally, I simply edit using a text editor on my local PC and then move it over with SFTP. It works pretty well for me. This means that all of the content on this capsule is static; I'm okay with that because it seems to be in the spirit of Gemini. I still need to write an Atom feed to submit to Capcom, so that means that most likely nobody is reading this, but that's okay too!
+
+I told my wife that I want to try not to make this a coding blog. I spend all day coding and thinking about coding and talking about coding, and I want to express other parts of my personality that aren't about my job. That doesn't mean I can't talk about tech, just that I'm going to avoid discussin software engineering specifically.
+
+My interests are:
+* Coding (oops)
+* Sci-fi novels (Neal Stephenson and William Gibson)
+
+# Links
+[1] => https://www.npmjs.com/package/gemini-server gemini-server on NPM
+
+=> / Home
