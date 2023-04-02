@@ -15,4 +15,4 @@
 ```
 
 # Logs:
-=> logs/new-blog.gmi New Blog
+=> logs/new-blog.gmi 4/2/2023 - New Blog
