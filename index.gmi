@@ -15,4 +15,5 @@
 ```
 
 # Logs:
+=> logs/new-blog.gmi 4/4/2023 - A Simple Gemini Server
 => logs/new-blog.gmi 4/2/2023 - New Blog
