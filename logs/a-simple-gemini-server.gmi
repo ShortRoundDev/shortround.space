@@ -1,6 +1,7 @@
 => / Home
 
 # A Simple Gemini Server
+4/4/2023
 
 I overhauled the server I use to serve gemtext files. I promise this isn't going to become yet another gemini coding blog, but I wanted to make sure the software is out there for other people who found it frustrating to setup a simple gemini site. The server serves static files from a configured directory and then generates an atom feed based on the filenames of the files in the /logs subdirectory. This lets you just write files with `names-that-look-like-this.gmi` and the atom feed will convert hyphens to spaces and generate `<title>` tags in the entries with `Names That Look Like This`. It reads the birthtime of each file and uses that to sort the feed chronologically. You can configure a name for your site feed and point to your certificates. I think it should serve most gemini user's needs. Check it out and submit an issue if you think there's a problem!
 
