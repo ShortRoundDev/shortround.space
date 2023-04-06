@@ -22,5 +22,6 @@
 ```
 
 # Logs:
+=> logs/a-vacation.gmi 4/6/2023 - A Vacation
 => logs/a-simple-gemini-server.gmi 4/4/2023 - A Simple Gemini Server
 => logs/new-blog.gmi 4/2/2023 - New Blog
