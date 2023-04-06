@@ -13,3 +13,5 @@ I used to play with Arduinos back in college, but kind of stopped for some reaso
 
 # Links
 => /image/badscreen.jpg [image] [1] Good Screen, Bad Screen
+
+=> / Home
