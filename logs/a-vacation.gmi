@@ -1,12 +1,15 @@
 => / Home
 
 # A Vacation
-4/5/2023
+4/6/2023
 
 I'm pretty sure I need a vacation. I haven't taken any days off since October of 2022. The good news is: I have one coming up. I'm taking the last 3 days of next week off for Thai new year and I'm going to visit my wife's family and a Buddhist temple that weekend. In the meantime, I'm trying to figure out what I'm going to do with 3 days off. I have side projects I can work on, but I feel like I'm just living that meme about "good screen vs bad screen"[1]. If I'm taking time off coding to work on coding, I don't think I'm going to end up relaxing much. I guess the best thing for me would be to read. I've got a book I'm almost through (Count Zero by William Gibson) and a billion other books on my shelf that I can get started on/finish. I was thinking of taking a break from Gibson and reading Stephenson next; I have Fall and Anathem that I wanted to read (as well as everything else he ever wrote, but that's the 2 I want to read right now).
 
 It should be good weather next week, so I'll try to get outside by the pool and relax. That's the entire point: relax. Calm my nerves and make a slow crawl down the brainstem from my frontal lobes into the medula. I also have some games I can play. I got the newest Resident Evil that I want to finish, and I have a backlog of classic RE games as well (RE1 for Playstation, Code Veronica for PS2, and 4 5 and 6 as well). I'm also playing Metroid Fusion on my Switch.
 
+I should probably go back to the gym, too. I haven't been on a treadmill in like 2 weeks and have plateaud in weight loss, which is better than gaining it all back, I suppose. At my new apartment we live on the 5th floor and we all go out of our way to use the stairs instead of the elevator. I think the reason I haven't gone to the gym is that my "gym buddy" switched to a 6am schedule and I don't want to get up that early to run. I also hate the new apartment gym; the equipment is crappier, the room is small, it's humid, and it smells like sweat. The apartment I live in also has a much younger demographic and it's intimidating going into the gym with a bunch of 22 year olds who all look like Olympic athletes. Plus I often go in and the treadmills are all taken. I could join a private gym but I know that if I have to walk across the street to go to the gym that I'm not really going to go.
+
+I used to play with Arduinos back in college, but kind of stopped for some reason. I was broke then, so a lot of the parts I ordered from Aliexpress were not easily compatible with each other, or I was using cheap, old parts like TIP-120 transistors. These days, I make a decent salary so I can get back into electronics with proper parts. My goal is to eventually be able to work on some digital logic stuff or even wire together a CPU to some memory and make a very simple microcomputer. I have a box full of missile switches that I want an excuse to figure out how to use. So maybe I can work on some of that stuff over my vacation. I'd also like to get into assembly for fun, so maybe I can combine assembly programming with a microcontroller or something.
 
 # Links
 => /image/badscreen.jpg [image] [1] Good Screen, Bad Screen
