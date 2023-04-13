@@ -1,0 +1,41 @@
+=> / Home
+
+# Getting Back Your Focus Without Throwing Your Phone Away
+4/13/2023
+
+If you're like me, you've begun getting non-existent phone notifications in the form of phantom vibrations in your leg[1]. If you're even more like me, this disturbs you on a biological level: our nervous systems have been rewired to crave the instant gratification of new posts on social media. You likely also have found that you're instinctively opening up reddit, gmail, twitter, etc. instinctively upon opening a new browser window or tab, whether you consciously intended to go to that website or not. Jordan Castro's "The Novelist" describes in detail the inner workings of the mind of a novelist who spends his day procrastinating working on his novel by distracting himself with things like social media and making superficial and unimportant changes to his work to convince himself that he's making progress[2]. The book is a first person stream of consciousness of its main character, and not much actually *happens* in the book, but it's engaging because nearly every page I found myself thinking "Oh my god: this is ME". It convinced me that I needed to make changes in my life to gain my attention span back.
+
+## You don't need to throw away your phone
+Though, if you want, feel free. I found, however, that there are still a few core features that my smartphone has that I'm not yet willing to shell out to replace. My car uses a USB connection to my smartphone in order to enable google maps on its center console, so I use my phone for navigation still. I can buy a GPS, but they're pretty expensive. Additionally, from 9-5 I want to be reachable by my office and I'm not always at home around my laptop. My phone keeps slack close when I'm out running errands.
+
+So what do you do about the phone, then? Leave it in another room, preferably off. When you get up in the morning, leave your phone in your bedroom, plugged in and off (unless you're expecting an important call). This has helped me quite a lot. If it's not within arms reach, I don't pick it up to do any mindless scrolling.
+
+But you may choose to do what many have done, and buy a feature phone. I'll say that I was a lot happier when I was using my feature phone, in general, but I still found myself switching to my smartphone regularly because of the above mentioned reasons. I think 90% of the time my SIM card was in my feature phone, but it was annoying having to switch the cards frequently (and I have also yet to find the perfect feature phone).
+
+## Block websites
+If you find yourself compulsively opening sites without even realizing it, then a small bit of indirection may help. I added my biggest problem sites to a localhost entry in my hosts file. On unix-like operating systems, this is under `/etc/hosts`. On Windows, it's `C:\Windows\System32\drivers\etc\hosts` and is just a file with a list of IPs and hostnames that tells your computer what IP address to look for first when you go somewhere on the internet. Add the following line to it at the bottom:
+
+```
+127.0.0.1 reddit.com facebook.com ycombinator.com instagram.com twitter.com
+```
+
+(I'll leave gmail off because, while it is a distraction for many, is also a vital communication tool for me and not THAT BAD of a distraction).
+
+When you try to visit any of these sites, you will be redirected to an error page. This small bit of indirection was, to me, enough to snap me out of whatever dopamine-induced delirium I was operating under and go spend my time on something I actually care about. Eventually, I found that I stopped compulsively going to these sites pretty quickly. I may have found some other distractions, but none that were as bad as Reddit.
+
+## Falling off the wagon
+I am an addict. Admitting so is the first step to recovery. I am addicted to message boards, talking shit to people with other political opinions, and mindlessly scrolling through memes while my life flies by me. I want to change, but it is difficult to commit.
+
+One thing many people don't know about drug and alcohol rehab is: it rarely works the first time[3]. Drug addicts are very likely to relapse after their first attempt at quitting, and it's important that they (and the people around them) keep trying (though I can speak from experience that watching a family member constantly fuck this process up is taxing and wears on your capacity for compassion).
+
+Personally, I am back to using a smartphone. I have removed all my host file blocks, and have a couple tabs of reddit open in the background as I write this. I am trying to get better. Unfortunately, my old feature phone is so old that my newer SIM card is too small for it, so I've ordered a new one in the mail. Until then, I continue to use.
+
+My point here is: don't think that these measures are bad because they only worked for a few weeks. Keep trying them, repeating as necessary. You will probably fall off the wagon, but you have to get back on.
+
+# Links
+
+=> https://www.bbc.com/future/article/20130701-why-you-feel-phantom-phone-calls [1] Why You Think Your Phone Is Vibrating When It's Not
+
+=> https://www.wired.com/story/the-novelist-jordan-castro-essay/ [2] Finally, a Novel That Gets the Internet Right
+
+=> https://www.psychologytoday.com/us/blog/psychoanalysis-unplugged/201809/why-addiction-rehab-programs-are-often-unsuccessful [3] Why Addiction Rehab Programs Are Often Unsuccessful
